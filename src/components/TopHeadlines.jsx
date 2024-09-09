@@ -66,7 +66,7 @@ const TopHeadlines = () => {
     },[select])
 
   
-  return (
+  return collection?(
    
    <Container >
    
@@ -101,7 +101,7 @@ const TopHeadlines = () => {
  </div> 
  </Container>
  
-  )
+  ):null
  
 }
 
